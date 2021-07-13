@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  FORM PAGE
+  </title>
+  </head>
+  <body style="background-color:#FEBFB3; font-family:'Lucida Handwriting';  color:#45171D;">
+  <h1><font size="12"><center>DOG  BOOKING FORM</center></font>  </h1>
+  <br>
+  <form method="post" action="book.php">
+    <fieldset>
+    <legend ><font size="5">USER INFORMATION:</font></legend>
+  <label for="NAME"> NAME:</label>
+  <input type="text" name="NAME" ><br><br>
+  </fieldset>
+  <fieldset>
+  <legend><font size="5">GENDER INFORMATION:</font></legend>
+<input type ="radio"id="male" name="GENDER" value="male" checked="checked">
+<label for="male"> MALE</label><br>
+<input type ="radio"id="female" name="GENDER" value="female" >
+<label for="male"> FEMALE</label><br>
+<input type ="radio"id="other" name="GENDER" value="other">
+<label for="male"> OTHER</label><br>
+</fieldset>
+<fieldset>
+    <p><font size="4.5">DOB:</font>  <input type="date" name="DOB" id="birth"></p>
+    <p><font size="4.5">Date Of  RECIEVING: </font>  <input type="date" name="DOJ" id="journey"></p>
+
+<BR>
+  <label for="EMAIL">ENTER EMAIL ADDRESS:</label>
+<input type="EMAIL" id="email" name="EMAIL" ><br><br>
+<label for="PHONE">PHONE NUMBER</label>
+<input type="text" name="PHONE" >
+</select><br><br>
+
+<h7><font size="4">ADDRESS :-</font></h7>
+<BR>
+
+<textarea name="ADDRESS" rows="10" cols="20">
+</textarea><br><br>
+<input type="submit" value="BOOK">
+<input type="reset" value="RESET"><br><br>
+</form>
+ </body>
+ </html>
